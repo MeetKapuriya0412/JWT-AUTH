@@ -1,6 +1,7 @@
-POST http://localhost:4000/token
+DELETE http://localhost:4000/logout
 Content-Type: application/json
 
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3lsZSIsImlhdCI6MTc1MTI1ODcwMH0.kCuz3OyUMtfmyYkZa7NPwPChMGDaBSn3PCuEVdCJSu8"  // the refreshToken received above
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3lsZSIsImlhdCI6MTc1MTI2NTUxMH0.ALfH0PeDyNK0_rDwtgz5c1gaQlEf5YDJFc7VXr0rkcM"
 }
+
