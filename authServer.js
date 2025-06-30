@@ -40,7 +40,7 @@ app.post('/token', (req, res) => {
 });
 
 // Logout endpoint
-app.post('/logout', (req, res) => {
+app.delete('/logout', (req, res) => {
     const refreshToken = req.query.token; 
     refreshTokens = refreshTokens.filter(token => token !== refreshToken);
     res.sendStatus(204);
