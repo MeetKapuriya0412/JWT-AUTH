@@ -22,7 +22,7 @@ const posts = [
         "title": 'post3'
     }
 ]
-
+//gets posts
 app.get('/posts', authenticateToken, (req, res) => {
     res.json(posts.filter(post => post.username == req.user.name));
 });
